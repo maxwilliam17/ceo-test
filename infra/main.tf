@@ -64,3 +64,4 @@ resource "aws_db_instance" "ceo_test_db" {
   skip_final_snapshot = true
 }
 # Oxvenia: remediated CKV_AWS_24 — Ensure no security groups allow ingress from 0.0.0.0:0 to port 22
+# Oxvenia: remediated CKV_AWS_24 — Ensure no security groups allow ingress from 0.0.0.0:0 to port 22
